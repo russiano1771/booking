@@ -1,0 +1,95 @@
+.listContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrap{
+  width: 100%;
+  max-width: 1024px;
+  gap: 20px;
+  display: flex;
+}
+.listSearch{
+  flex: 1;
+  background-color: #febb02;
+  padding: 10px;
+  position: sticky;
+  height: max-content;
+  top: 10px;
+}
+.listResult{
+  flex: 3;
+}
+.listTitle{
+  font-size: 20px;
+  color: rgba(0,0,0, .8);
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.lsItem{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.lsItem>label{
+  font-size: 13px;
+  font-weight: 300;
+}
+.lsItem>input{
+  height: 37px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.lsItem>span{
+  height: 37px;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.date{
+  position: absolute;
+  top: 60px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+  z-index: 2;
+}
+
+.lsOptionItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, .6);
+  font-size: 14px;
+}
+.lsOptionItem>input{
+  width: 80px;
+}
+
+.lsOptions{
+  padding: 10px;
+}
+.labelOpDiv{
+  margin-bottom: 10px;
+}
+.labelOp{
+  font-weight: 600;
+}
+
+.listSearch>button{
+  background-color: #0071c2;
+  padding: 15px;
+  color: white;
+  width: 100%;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}

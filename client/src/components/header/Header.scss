@@ -1,0 +1,156 @@
+.header{
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+
+  .headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 50px 0 100px 0;
+    color: white;
+    max-height: 500px;
+
+    .headerTitle{
+      margin-top: 50px;
+      font-size: 50px;
+    }
+    .headerDesc{
+      font-size: 25px;
+      font-weight: 200;
+      margin-top: 10px;
+    }
+
+
+    .headerList{
+      display: flex;
+      gap: 40px;
+
+
+      .headerItem{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+      }
+      .headerItem.active{
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+    }
+
+    .headerSearch{
+      display: flex;
+      background-color: white;
+      border: 5px solid #febb02;
+      height: 60px;
+      padding: 10px 0;
+      border-radius: 5px;
+      justify-content: space-around;
+      position: absolute;
+      bottom: -30px;
+      width: 100%;
+      max-width: 1024px;
+
+      .headerIcon{
+        color: #bbbbbb;
+        font-size: 30px;
+      }
+
+
+      .headerSearchItem{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+
+
+
+        span{
+          font-size: 0.9em;
+        }
+
+        .headerSearchInput{
+          border: none;
+          outline: none;
+        }
+
+        span{
+          color: black;
+        }
+
+        .headerBtn{
+          background-color: #0071c2;
+          color: white;
+          padding: 10px 15px;
+          border: none;
+          height: 50px;
+          width: 100px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.navItemEl{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.date{
+  position: absolute;
+  top: 60px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+  z-index: 2;
+}
+
+.options{
+  position: absolute;
+  top: 60px;
+  color: grey;
+  background-color: white;
+  width: 260px;
+  margin-left: 30px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+  z-index: 2;
+
+  .optionsItem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .optionsText{
+      margin-left: 20px;
+      font-size: 0.9em;
+    }
+
+    .borderBtn{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .optionsCountBtn{
+      width: 50px;
+      height: 30px;
+      border: none;
+      outline: none;
+      background-color: white;
+      font-size: 25px;
+      color: rgba(0, 0, 0, .5);
+    }
+  }
+}
+
+.headerContainer.listMode{
+  margin: 50px 0 50px 0;
+}

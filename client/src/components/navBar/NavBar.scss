@@ -1,0 +1,53 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    .navContainer{
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 15px;
+
+        .logo{
+            font-size: 30px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+
+        .navItemEl{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            width: 500px;
+            justify-content: space-between;
+
+        }
+        .kzt{
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+
+        .navButton{
+            margin-right: 20px;
+            padding: 10px 15px;
+            color: white;
+            background-color: #0071c2;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .logo{
+            font-weight: 500;
+        }
+    }
+}
+
+
+

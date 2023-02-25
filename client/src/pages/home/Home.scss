@@ -1,0 +1,135 @@
+
+
+.homeContainer{
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+
+  .homeTitle{
+
+  }
+}
+.covidContainer{
+  margin-top: 20px;
+  display: flex;
+  margin-left: 125px;
+
+}
+.homeTitle{
+  margin-top: 20px;
+  display: flex;
+  width: 1024px;
+  flex-direction: column;
+  font-size: 24px;
+
+  .h1Title{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .titleDesc{
+    font-size: 0.95em;
+    margin-left: 2px;
+    color: rgba(0, 0, 0, .5);
+  }
+}
+
+.specOffer{
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  justify-content: space-around;
+  margin-left: 250px;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.cardOffer{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.1);
+  height: 170px;
+  width: 500px;
+  background-color: transparent;
+
+
+  .cardOf{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+}
+
+.spanTit{
+  font-weight: 700;
+}
+
+.spanDesc{
+  width: 300px;
+  color: rgba(0, 0, 0, .7);
+  margin-top: 15px;
+}
+.cardBtn{
+  background-color: #0071c2;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border: none;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.hometitle{
+  width: 1024px;
+  font-size: 25px;
+  margin-left: 5px;
+}
+.homeSpan{
+  width: 1024px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, .5);
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+
+
+.propHome{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.propHome2{
+
+  max-width: 1024px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.link{
+  width: 100%;
+  max-width: 300px;
+  text-decoration: none;
+  color: #0071c2;
+}
+
+.lovelyPl{
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+
+  .Link{
+    color: #0071c2;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 30px;
+    text-decoration: none;
+
+  }
+}
